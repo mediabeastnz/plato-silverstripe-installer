@@ -7,17 +7,33 @@ This installer requires you have the following:
 - Bower
 - Compass
 - Bundle
+- Gulp
 
 ### Installation ###
 Use composer to quickly create a new project:
 ```
 composer create-project plato-creative/plato-silverstripe-installer . @dev
 ```
-When `composer install` is executed composer loads the PlatoCreative installer class and works through it's logic.
-It firstly asks the user for some site settings e.g. theme name and database name.
-It then asks if you are building a custom website or want to base it from a pre-build theme and modules. If you choose to use the base then you will get some basic styles and layout and a few pre-built modules. If you choose custom then you will get a fresh foundation install and limited setup.
+Composer loads the installer which works through is logic.  Asking the following questions:
+- Do you want to install all base modules? Yes or No (see base modules below)
+- Do you want to install <specific module>? Yes or No
+- Please specify the theme name
+- Please specify the database name
 
-The base theme adds the following plato modules:
+### Gulp ###
+
+In terminal cd to your theme directory. Run
+```
+npm install --save-dev
+```
+
+Start watching the theme
+```
+Gulp
+```
+
+### Base Modules ###
+The base modules are listed below:
 - [Home page slides](https://github.com/PlatoCreative/plato-silverstripe-homeslides)
 - [Home page tiles](https://github.com/PlatoCreative/plato-silverstripe-hometiles)
 - [Gallery](https://github.com/PlatoCreative/plato-silverstripe-gallery)
