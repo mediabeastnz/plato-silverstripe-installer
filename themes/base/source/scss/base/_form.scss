@@ -5,88 +5,88 @@ This file should contain base elements form forms .e.g. inputs and textarea
 No structural or layout styles should be in this file.
 */
 
-// --------------- inputs ---------------
-// --------------- text ---------------
+/* --------------- inputs --------------- */
+/* --------------- text --------------- */
 input.text,
 input[type=text] {
 
 }
 
-// --------------- textarea ---------------
+/* --------------- textarea --------------- */
 textarea {
 
 }
 
-// --------------- email ---------------
+/* --------------- email --------------- */
 input.email,
 input[type=email] {
 
 }
 
-// --------------- password ---------------
+/* --------------- password --------------- */
 input.password,
 input[type=password] {
 
 }
 
-// --------------- web site  address ---------------
+/* --------------- web site  address --------------- */
 input.url,
 input[type=url] {
 
 }
 
-// --------------- search ---------------
+/* --------------- search --------------- */
 input.search,
 input[type=search] {
 
 }
 
-// --------------- select menu ---------------
+/* --------------- select menu --------------- */
 input.text,
 input[type=text] {
 
 }
-// --------------- checkbox ---------------
+/* --------------- checkbox --------------- */
 input.text,
 input[type=text] {
 
 }
-// --------------- radio ---------------
+/* --------------- radio --------------- */
 input.text,
 input[type=text] {
 
 }
-// --------------- color ---------------
+/* --------------- color --------------- */
 input.text,
 input[type=text] {
 
 }
-// --------------- number ---------------
+/* --------------- number --------------- */
 input.number,
 input[type=number] {
 
 }
-// --------------- range ---------------
+/* --------------- range --------------- */
 input.range,
 input[type=range] {
 
 }
-// --------------- date ---------------
+/* --------------- date --------------- */
 input.date,
 input[type=date] {
 
 }
-// --------------- month ---------------
+/* --------------- month --------------- */
 input.month,
 input[type=month] {
 
 }
-// --------------- week ---------------
+/* --------------- week --------------- */
 input.week,
 input[type=week] {
 
 }
-// --------------- datetime ---------------
+/* --------------- datetime --------------- */
 input.datetime,
 input[type=datetime] ,
 input.datetime-local,
@@ -94,7 +94,7 @@ input[type=datetime-local] {
 
 }
 
-// --------------- required and optional ---------------
+/* --------------- required and optional --------------- */
 
 form:not(.userform){
   .requiredField > label:after{
@@ -110,14 +110,14 @@ form:not(.userform){
   }
 }
 
-// --------------- errors ---------------
+/* --------------- errors --------------- */
 
 span.error,
 small.error{
 
 }
 
-// --------------- buttons ---------------
+/* --------------- buttons --------------- */
 .btn,
 .button,
 input.submit,
@@ -125,13 +125,13 @@ input[type=submit] {
   @include button;
 }
 
-// --------------- search buttons ---------------
+/* --------------- search buttons --------------- */
 
 button[value=Search]{
 
 }
 
-// --------------- field wrapper ---------------
+/* --------------- field wrapper --------------- */
 
 .field{
 

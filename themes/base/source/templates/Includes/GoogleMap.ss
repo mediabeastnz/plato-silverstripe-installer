@@ -1,4 +1,7 @@
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script><script>var map,
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script>
+	var map,
 		MY_MAPTYPE_ID = 'custom_style';
 	function initializeMap() {
 		var featureOpts = [
@@ -37,4 +40,5 @@
 		});
 	}
 	google.maps.event.addDomListener(window, 'load', initializeMap);
-	google.maps.event.clearListeners(window, 'onscroll');</script>
+	google.maps.event.clearListeners(window, 'onscroll');
+</script>

@@ -1,6 +1,8 @@
+// @import "sass-list-maps";
+
 // import typography styles for the editor in the CMS
-@import "foundation-sites/scss/foundation";
-@import "settings";
+@import 'foundation-sites/scss/foundation';
+@import 'settings';
 
 .typography {
   padding: rem-calc($grid-column-gutter/2);
@@ -10,4 +12,4 @@
 @include foundation-typography;
 @include foundation-button;
 
-@import "base/base";
+@import 'base/base';
