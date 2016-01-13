@@ -1,1 +1,0 @@
-<main class="main" id="main" role="main" tabindex="3">$Breadcrumbs<% if Title %><header class="header"><% end_if %><h1 class="title">$Title</h1></header><% end_if %><% if Content %><div class="content">$Content</div><% end_if %><% if Form %><div class="form">$Form</div><% end_if %></main>

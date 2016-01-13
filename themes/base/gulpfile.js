@@ -33,8 +33,17 @@ gulp.task('script', function() {
 
 // Minify SS files
 gulp.task('template', function() {
-  return gulp.src('./source/templates/**/*.ss')
-    .pipe(htmlmin({ collapseWhitespace: true }))
+  return gulp.src('./source/templates/**/*.sss')
+    .pipe(htmlmin({
+        collapseWhitespace: true,
+        collapseInlineTagWhitespace: true,
+        minifyJS: true,
+        minifyCSS: true,
+        removeComments: true
+    }))
+    .pipe(rename(function(path) {
+        path.extname = ".ss"
+    }))
     .pipe(gulp.dest('templates'))
     .pipe(notify({ message: '<%= file.relative %> compiled.', wait: true }));
 });
