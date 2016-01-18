@@ -1,0 +1,1 @@
+<% if trackingId %><script type="text/javascript">setTimeout(function(){var e=document.createElement("script"),t=document.getElementsByTagName("script")[0];e.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/{$trackingId}.js?"+Math.floor((new Date).getTime()/36e5),e.async=!0,e.type="text/javascript",t.parentNode.insertBefore(e,t)},1);</script><% end_if %>
