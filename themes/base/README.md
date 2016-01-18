@@ -1,7 +1,11 @@
 # Theme #
 
 ## Install requirements ##
-In terminal Run
+Make sure the following is installed
+- [Bundler](http://bundler.io/)
+- [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+
+Once installed run the following commands.  This should install the predefined requirements.
 ```
 bundle
 npm install --save-dev
