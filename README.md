@@ -20,18 +20,6 @@ Composer loads the installer which works through is logic.  Asking the following
 - Please specify the theme name
 - Please specify the database name
 
-### Gulp ###
-
-In terminal cd to your theme directory. Run
-```
-npm install --save-dev
-```
-
-Start watching the theme
-```
-Gulp
-```
-
 ### Base Modules ###
 The base modules are listed below:
 - [Home page slides](https://github.com/PlatoCreative/plato-silverstripe-homeslides)
